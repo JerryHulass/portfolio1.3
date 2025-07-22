@@ -6,10 +6,10 @@ return (
   <div className="relative h-screen bg-slate-950  overflow-hidden">
     <BackgroundCellCore />
     <div className="relative z-50 mt-40 pointer-events-none select-none flex flex-col items-start font-anton">
-      <h1 className="md:text-7xl lg:text-8xl text-6xl font-medium text-center pl-10 text-[#B22222]">
+      <h1 className="md:text-7xl lg:text-8xl text-6xl font-medium text-center md:pl-32 pl-12 pt-10 text-[#B22222]">
         FRONTEND
       </h1>
-      <h1 className="md:text-7xl lg:text-8xl text-6xl font-medium text-center pl-14 text-white">
+      <h1 className="md:text-7xl lg:text-8xl text-6xl font-medium text-center md:pl-36 pl-14 pt-10 text-white">
         DEVELOPER
       </h1>
 
@@ -49,8 +49,8 @@ const Pattern = ({
   className,
   cellClassName,
 }) => {
-  const x = new Array(47).fill(0);
-  const y = new Array(30).fill(0);
+  const x = new Array(55).fill(0);
+  const y = new Array(35).fill(0);
   const matrix = x.map((_, i) => y.map((_, j) => [i, j]));
   const [clickedCell, setClickedCell] = useState(null);
 

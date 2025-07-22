@@ -3,6 +3,7 @@ import { BackgroundCellAnimation } from './components/Bg-Ripple'
 import Preloader from './components/Preloader'
 import Scrollbar from './components/Scrollbar'
 import About from './components/About'
+import NavButton from './components/NavButton'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <BackgroundCellAnimation />
       <About />
       <Scrollbar />
+      <NavButton />
     </>
   )
 }
