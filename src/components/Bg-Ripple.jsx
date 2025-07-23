@@ -5,13 +5,19 @@ export const BackgroundCellAnimation = () => {
 return (
   <div className="relative h-screen bg-slate-950  overflow-hidden">
     <BackgroundCellCore />
-    <div className="relative z-50 mt-40 pointer-events-none select-none flex flex-col items-start font-anton">
-      <h1 className="md:text-7xl text-6xl md:pl-10 xl:pl-12 xl:pt-10 font-medium text-center  text-[#B22222]">
-        FRONTEND
+    <div className="relative z-50 mt-40 flex flex-col items-center font-anton">
+      <h1 className="md:text-7xl lg:text-8xl md:pl-10 xl:pl-12 xl:pt-10 font-medium text-center  text-[#B22222]">
+        JAVASCRIPT
       </h1>
-      <h1 className="md:text-7xl text-6xl md:pl-10 xl:pl-12 xl:pt-10  font-medium text-center text-white">
+      <h1 className="md:text-7xl lg:text-8xl text-6xl md:pl-36 pl-14 pt-10 font-medium text-center text-white">
         DEVELOPER
       </h1>
+      <h1 className="md:text-7xl lg:text-8xl text-6xl md:pl-32 pl-12 pt-10  font-medium text-center text-[#B22222]">
+        Hi! I'm Jeremy Hulass.
+      </h1>
+      <p className="md:text-2xl text-xl w-1/2 h-20 font-sans text-center text-white">
+        A detail-oriented JavaScript developer with a strong focus on building scalable and maintainable web applications that deliver responsive, interactive, and visually refined user experiences.
+      </p>
 
     </div>
   </div>
