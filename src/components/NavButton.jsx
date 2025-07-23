@@ -15,9 +15,9 @@ const toggleMenu = () => {
         <div>
         {!isOpen && (
             <button onClick={toggleMenu} className="fixed top-[10svh] right-10 -translate-y-1/2 w-28 h-28 square-full bg-transparent overflow-hidden z-50">
-                <div className="w-32 h-4 bg-[#B22222] mb-3"></div>
-                <div className="w-32 h-4 bg-[#B22222] mb-3"></div>
-                <div className="w-32 h-4 bg-[#B22222] mb-3"></div>
+                <div className="w-24 2xl:w-28 h-4 bg-[#B22222] mb-3"></div>
+                <div className="w-24 2xl:w-28 h-4 bg-[#B22222] mb-3"></div>
+                <div className="w-24 2xl:w-28 h-4 bg-[#B22222] mb-3"></div>
             </button>
         )}
 
